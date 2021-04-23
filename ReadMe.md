@@ -22,7 +22,7 @@
 ## Usage Instructions
 - main.py:The main file that is executed and is responsible for user interactions i.e. user input and output
 - conn.py:This file acts a middleware that handles the user request and connects us with database.It involves three functions-
-* avail-calls the procedure defined in sql to check for any meeting collisions
-* ins_meet-responsible for inserting details of the meeting if its not clashing with another meeting.
-* option-provides user with different room option incase the room user selected is occupied.
+ avail-calls the procedure defined in sql to check for any meeting collisions
+ ins_meet-responsible for inserting details of the meeting if its not clashing with another meeting.
+ option-provides user with different room option incase the room user selected is occupied.
 - sql file:consists of database creation and procedure creation.
